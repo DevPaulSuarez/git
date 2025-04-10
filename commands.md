@@ -10,3 +10,7 @@ git commit -m "Descripcion del cambio que se realizo"
 git log  
 git Status (verificar el estado del documento en el area de preparacion)
 git diff (verificar las modificaciones)
+
+
+git show 
+git log oneline
