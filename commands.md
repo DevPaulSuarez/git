@@ -13,4 +13,4 @@ git diff (verificar las modificaciones)
 
 
 git show 
-git log oneline
+git log --oneline
