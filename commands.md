@@ -16,3 +16,9 @@ git show
 git log --oneline
 
 git checkout <id commit>
+
+<!-- git para revertir los comabias guardando en local luego para poder revertir con git add-->
+git stash 
+git stash list
+git stash apply
+git stash clear
