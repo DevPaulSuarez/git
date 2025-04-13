@@ -17,8 +17,14 @@ git log --oneline
 
 git checkout <id commit>
 
-<!-- git para revertir los comabias guardando en local luego para poder revertir con git add-->
 git stash 
 git stash list
 git stash apply
 git stash clear
+
+git branch
+git branch "home"
+git checkout -b develop (creacion de una rama llamda develop)
+git checkout -b "feat/index"
+git merge feat/index (merge para fusionar ramas)
+git branch -D feat/index (eliminar la rama despues de pasar a produccion)
